@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "IG Remove Specific Div",
+  "version": "1.0",
+  "description": "Remove a div com a classe gigante especificada no Instagram.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.instagram.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
